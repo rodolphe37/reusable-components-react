@@ -25,18 +25,18 @@
 ---
 ### Movie Demo off all components : 
 
-![!Demogif](AnimatedLantern.gif)
-![!Demogif](AnimatedRocket.gif)
-![!Demogif](CameraAnimation3d.gif)
-![!Demogif](FizzyButton.gif)
-![!Demogif](InfiniteLoopLoader.gif)
-![!Demogif](LoadingPage.gif)
-![!Demogif](LoadingPage2.gif)
-![!Demogif](MagazineStyleLayout.gif)
-![!Demogif](Magazine3DFlip.gif)
-![!Demogif](OrderProcessSteps.gif)
-![!Demogif](SolarSystemExplorer.gif)
-![!Demogif](ToggleSwitch.gif)
+![!Demogif]AnimatedLantern(AnimatedLantern.gif)
+![!Demogif]AnimatedRocket(AnimatedRocket.gif)
+![!Demogif]CameraAnimation3d(CameraAnimation3d.gif)
+![!Demogif]FizzyButton(FizzyButton.gif)
+![!Demogif]InfiniteLoopLoader(InfiniteLoopLoader.gif)
+![!Demogif]LoadingPage(LoadingPage.gif)
+![!Demogif]LoadingPage2(LoadingPage2.gif)
+![!Demogif]MagazineStyleLayout(MagazineStyleLayout.gif)
+![!Demogif]Magazine3DFlip(Magazine3DFlip.gif)
+![!Demogif]OrderProcessSteps(OrderProcessSteps.gif)
+![!Demogif]SolarSystemExplorer(SolarSystemExplorer.gif)
+![!Demogif]ToggleSwitch(ToggleSwitch.gif)
 
 
 
