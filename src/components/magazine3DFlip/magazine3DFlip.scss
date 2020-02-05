@@ -1,0 +1,245 @@
+@mixin make-cube($width, $height, $depth, $color, $animate, $lighting) {
+    width: $width;
+    height: $height;
+    transform-style: preserve-3d;
+    div {
+        position: absolute;
+        width: $width;
+        height: $height;
+        background: $color;
+        transform-origin: 50% 50%;
+    }
+    div.cube_front {
+        transform-origin: 1px 0px;
+        backface-visibility: hidden;
+        transform: translateZ($depth / 2 + 1);
+        transition: transform 1s cubic-bezier(0.815, 0.005, 0.180, 1.005);
+        background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/magazine_cover2.jpg');
+        background-size: cover !important;
+    }
+    div.page_left {
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+        transform-origin: 1px 0px;
+        transition: transform 1s cubic-bezier(0.815, 0.005, 0.180, 1.005);
+        transform: translateZ($depth / 2 -1);
+        background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/magazine_left2.jpg');
+        background-size: cover !important;
+    }
+    div.page_right {
+        transform: translateZ($depth / 2 - 1);
+        background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/magazine_right2.jpg');
+        background-size: cover !important;
+    }
+    div.cube_back {
+        transform: translateZ(- $depth / 2);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    }
+    div.cube_left {
+        width: $depth;
+        transform: rotateY(90deg) translateZ(-($depth/2));
+        background-color: #062738;
+    }
+    div.cube_right {
+        width: $depth;
+        transform: rotateY(90deg) translateZ($width -($depth/2));
+        background-color: darken($color, 2 * $lighting);
+    }
+    div.cube_top {
+        height: $depth;
+        transform: rotateX(90deg) translateZ($depth/2);
+        background-color: darken($color, 3 * $lighting);
+    }
+    div.cube_bottom {
+        height: $depth;
+        transform: rotateX(90deg) translateZ(- ($height - ($depth/2)));
+        background-color: #fff
+    }
+}
+
+.cube {
+    perspective: 1200px;
+    transform-style: preserve-3D;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 180px;
+    height: 280px;
+    transition: all 1s cubic-bezier(0.815, 0.005, 0.180, 1.005);
+    top: 10px;
+    transform: rotateY(0deg) rotateX(40deg) rotateZ(-20deg) scale(1);
+    &:hover {}
+    &_inner {
+        @include make-cube(210px,
+        280px,
+        10px,
+        #FF2BA2,
+        false,
+        8);
+    }
+}
+
+hr {
+    background: #09d4fb;
+    width: 16px;
+    float: left;
+    height: 2px;
+    border: none;
+}
+
+.box {
+    background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/217233/wood_panels.png');
+    background-size: cover;
+    width: 500px;
+    background-color: #e8cbb1;
+    background-blend-mode: difference;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 50%;
+    transition: width 1s cubic-bezier(0.815, 0.005, 0.180, 1.005), background-color 1s cubic-bezier(0.815, 0.005, 0.180, 1.005), background-position .6s .51s ease;
+    transform: translateY(-50%);
+    &:hover {
+        width: 660px;
+        background-position: -300px 0px;
+        //background-color: #86d6ce;
+        .cube {
+            transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg) scale(1) translateY(50px) translateX(-220px);
+            .cube_front {
+                transform: translateZ(5px) rotatey(-179deg);
+            }
+            .page_left {
+                transform: translateZ(5px) rotatey(-180deg);
+            }
+        }
+        .description {
+            left: 426px;
+            top: -10px;
+            height: 160px;
+            width: 200px;
+        }
+        .pink {
+            transform: scale(1) rotate(-10deg);
+            transition: all .7s .3s cubic-bezier(0.815, 0.005, 0.180, 1.005);
+        }
+        .holder {
+            width: 700px;
+        }
+        .big {
+            opacity: 1;
+            top: 180px;
+            left: 180px;
+        }
+        .button {
+            z-index: 3;
+            bottom: 82px;
+            left: 510px;
+            background: #298aaf;
+        }
+    }
+    .pink {
+        position: absolute;
+        transition: all .7s 0s cubic-bezier(0.815, 0.005, 0.180, 1.005);
+        width: 80px;
+        border-radius: 100px;
+        height: 62px;
+        z-index: 2;
+        background: black;
+        color: white;
+        left: 160px;
+        top: 22px;
+        font-family: georgia;
+        text-align: center;
+        line-height: 20px;
+        padding: 18px 0px 0px 0px;
+        box-shadow: 0px 0px 0px black;
+        transform: scale(0) rotate(-80deg);
+    }
+    .holder {
+        transition: all 1s .2s;
+        overflow: hidden;
+        width: 500px;
+        height: 400px;
+        background: transparent;
+        position: absolute;
+    }
+    .big {
+        hr {
+            background: white;
+        }
+        background: #47e1ff;
+        padding: 20px;
+        transition: all 1s cubic-bezier(0.815,
+        0.005,
+        0.180,
+        1.005);
+        position: absolute;
+        opacity: 1;
+        z-index: 2;
+        top: -136px;
+        left: 90px;
+        width: 370px;
+        h1 {
+            font-family: georgia;
+            font-size: 20px;
+            margin: 0;
+            font-weight: normal;
+            color: #583447;
+        }
+        p {
+            clear: left;
+            margin: 0;
+            font-size: 12px;
+            font-family: georgia;
+            opacity: 0.8;
+            color: #583447;
+        }
+    }
+    .button {
+        background: #09d4fb;
+        position: absolute;
+        bottom: 14px;
+        cursor: pointer;
+        transition: bottom 1s cubic-bezier(0.815, 0.005, 0.180, 1.005), left 1s cubic-bezier(0.815, 0.005, 0.180, 1.005), box-shadow 1s, background-color 1s;
+        z-index: 4;
+        left: 360px;
+        padding: 10px 24px;
+        color: white;
+        box-shadow: 0px 0px 0px #f31893;
+        border-radius: 100px;
+        font-family: georgia;
+        font-size: 12px;
+        //border:2px solid white;
+        &:hover {
+            //background: #ec3fa1;
+        }
+    }
+    .description {
+        transition: all 1s cubic-bezier(0.815, 0.005, 0.180, 1.005);
+        background: black;
+        position: absolute;
+        height: 86px;
+        z-index: 1;
+        top: 240px;
+        width: 400px;
+        color: white;
+        left: 0px;
+        padding: 22px;
+        h1 {
+            font-family: georgia;
+            font-weight: normal;
+            margin: 0;
+            font-size: 18px;
+        }
+        p {
+            clear: left;
+            font-family: georgia;
+            margin: 0;
+            font-weight: normal;
+            font-size: 12px;
+            opacity: 0.8;
+        }
+    }
+}
