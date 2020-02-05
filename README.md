@@ -96,7 +96,7 @@ Doing in the console :
 
 -  ``` $ cd reusable-components-react```
 
-to going to our frontend folder, then doing:
+to going to our folder, then doing:
 
  ``` $ nvm use ```
 
