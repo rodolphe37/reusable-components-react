@@ -25,18 +25,18 @@
 ---
 ### Movie Demo off all components : 
 
-![!Demogif]AnimatedLantern(AnimatedLantern.gif)
-![!Demogif]AnimatedRocket(AnimatedRocket.gif)
-![!Demogif]CameraAnimation3d(CameraAnimation3d.gif)
-![!Demogif]FizzyButton(FizzyButton.gif)
-![!Demogif]InfiniteLoopLoader(InfiniteLoopLoader.gif)
-![!Demogif]LoadingPage(LoadingPage.gif)
-![!Demogif]LoadingPage2(LoadingPage2.gif)
-![!Demogif]MagazineStyleLayout(MagazineStyleLayout.gif)
-![!Demogif]Magazine3DFlip(Magazine3DFlip.gif)
-![!Demogif]OrderProcessSteps(OrderProcessSteps.gif)
-![!Demogif]SolarSystemExplorer(SolarSystemExplorer.gif)
-![!Demogif]ToggleSwitch(ToggleSwitch.gif)
+![!Demogif](AnimatedLantern.gif) AnimatedLantern
+![!Demogif](AnimatedRocket.gif) AnimatedRocket
+![!Demogif](CameraAnimation3d.gif) CameraAnimation3d
+![!Demogif](FizzyButton.gif) FizzyButton
+![!Demogif](InfiniteLoopLoader.gif) InfiniteLoopLoader
+![!Demogif](LoadingPage.gif) LoadingPage
+![!Demogif](LoadingPage2.gif) LoadingPage2
+![!Demogif](MagazineStyleLayout.gif) MagazineStyleLayout
+![!Demogif](Magazine3DFlip.gif) Magazine3DFlip
+![!Demogif](OrderProcessSteps.gif) OrderProcessSteps
+![!Demogif](SolarSystemExplorer.gif) SolarSystemExplorer
+![!Demogif](ToggleSwitch.gif) ToggleSwitch
 
 
 
