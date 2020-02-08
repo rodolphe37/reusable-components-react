@@ -6,13 +6,13 @@ const AnimatedLantern = () => {
     <div className="stage">
     <div className="scene">
         <div className="halo">
-        <i />
-        <span className="halo-star" />
-        <span className="halo-star" />
-        <span className="halo-star" />
-        <i />
-        <i />
-        <i />
+            <i />
+            <span className="halo-star" />
+            <span className="halo-star" />
+            <span className="halo-star" />
+            <i />
+            <i />
+            <i />
         </div>
         <div className="lantern">
         <div className="lantern-handle" />

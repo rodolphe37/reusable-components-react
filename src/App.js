@@ -6,11 +6,11 @@ import React from 'react';
 // import ToggleSwitch from './components/ToggleSwitch/ToggleSwitch';
 // import CameraAnimation3d from './components/CameraAnimation3d/CameraAnimation3d';
 // import AnimatedLantern from './components/AnimatedLantern/AnimatedLantern';
-// import FreeRadicals from './components/FreeRadicals/FreeRadicals';
+import FreeRadicals from './components/FreeRadicals/FreeRadicals';
 // import AnimatedRocket from './components/AnimatedRocket/AnimatedRocket';
 // import FolderPaperLogin from './components/FolderPaperLogin/FolderPaperLogin';
 // import BurgerOrPizza from './components/BurgerOrPizza/BurgerOrPizza';
-import PolaroidStyles from './components/PolaroidStyles/PolaroidStyles';
+// import PolaroidStyles from './components/PolaroidStyles/PolaroidStyles';
 // import PolaroidCamera from './components/polaroidCamera/PolaroidCamera';
 // import Loader31 from './components/loader31/Loader31';
 // import TooltipAnimation from './components/TooltipAnimation/TooltipAnimation';
@@ -69,8 +69,8 @@ function App() {
       {/*<TooltipAnimation />*/}
       {/*<FolderPaperLogin />*/}
        {/*<BurgerOrPizza />*/}
-     <PolaroidStyles />
-      {/*<FreeRadicals />*/}
+     {/*<PolaroidStyles />*/}
+      <FreeRadicals />
       {/*<AnimatedRocket />*/}
       {/*<AnimatedLantern />*/}
       {/*<ToggleSwitch />*/}
