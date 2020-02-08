@@ -21,7 +21,7 @@ import React from 'react';
 // import SpiralLoading from './components/spiralLoading/SpiralLoading';
 // import LoadingPage from './components/loadingPage/LoadingPage';
 // import MagazineStyleLayout from './components/magazineStyleLayout/MagazineStyleLayout'
-// import LoadingPage2 from './components/loadingPage2/LoadingPage2';
+import LoadingPage2 from './components/loadingPage2/LoadingPage2';
 // import SolarSystemExplorer from './components/solarSystemExplorer/SolarSystemExplorer';
 // import OrderProcessSteps from './components/orderProcessSteps/OrderProcessSteps';
 // import Magazine3DFlip from './components/magazine3DFlip/Magazine3DFlip';
@@ -45,7 +45,7 @@ function App() {
     <div className="App">
       {/*<LoadingPage/>*/}
      {/*<MagazineStyleLayout />*/}
-      {/*<LoadingPage2 />*/}
+      <LoadingPage2 />
       {/*<SolarSystemExplorer />*/}
       {/*<OrderProcessSteps />*/}
       {/*<Magazine3DFlip />*/}
