@@ -25,7 +25,7 @@ import React from 'react';
 // import SolarSystemExplorer from './components/solarSystemExplorer/SolarSystemExplorer';
 // import OrderProcessSteps from './components/orderProcessSteps/OrderProcessSteps';
 // import Magazine3DFlip from './components/magazine3DFlip/Magazine3DFlip';
-// import FizzyButton from './components/fizzyButton/FizzyButton';
+import FizzyButton from './components/fizzyButton/FizzyButton';
 // import ExplodingModal from './components/explodingModal/ExplodingModal';
 // import ClockWorking from './components/clockWorking/ClockWorking';
 // import Iphone6 from './components/iphone6/Iphone6';
@@ -49,7 +49,7 @@ function App() {
       {/*<SolarSystemExplorer />*/}
       {/*<OrderProcessSteps />*/}
       {/*<Magazine3DFlip />*/}
-       {/*<FizzyButton />*/}
+       <FizzyButton />
      {/*<ExplodingModal />*/}
       {/*<ClockWorking />*/}
       {/*<Iphone6 />*/}
