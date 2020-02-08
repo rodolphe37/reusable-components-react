@@ -19,8 +19,8 @@ import React from 'react';
 // import CupCakeSlider from './components/CupCakeSlider/CupCakeSlider';
 // import StatBars3d from './components/StatBars3d/StatBar3d';
 // import SpiralLoading from './components/spiralLoading/SpiralLoading';
-import LoadingPage from './components/loadingPage/LoadingPage';
-// import MagazineStyleLayout from './components/magazineStyleLayout/MagazineStyleLayout'
+// import LoadingPage from './components/loadingPage/LoadingPage';
+import MagazineStyleLayout from './components/magazineStyleLayout/MagazineStyleLayout'
 // import LoadingPage2 from './components/loadingPage2/LoadingPage2';
 // import SolarSystemExplorer from './components/solarSystemExplorer/SolarSystemExplorer';
 // import OrderProcessSteps from './components/orderProcessSteps/OrderProcessSteps';
@@ -43,8 +43,8 @@ import LoadingPage from './components/loadingPage/LoadingPage';
 function App() {
   return (
     <div className="App">
-      <LoadingPage/>
-     {/*<MagazineStyleLayout />*/}
+      {/*<LoadingPage/>*/}
+     <MagazineStyleLayout />
       {/*<LoadingPage2 />*/}
       {/*<SolarSystemExplorer />*/}
       {/*<OrderProcessSteps />*/}
