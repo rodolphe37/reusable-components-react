@@ -10,7 +10,7 @@ import React from 'react';
 // import AnimatedRocket from './components/AnimatedRocket/AnimatedRocket';
 // import FolderPaperLogin from './components/FolderPaperLogin/FolderPaperLogin';
 // import BurgerOrPizza from './components/BurgerOrPizza/BurgerOrPizza';
-// import PolaroidStyles from './components/PolaroidStyles/PolaroidStyles';
+import PolaroidStyles from './components/PolaroidStyles/PolaroidStyles';
 // import PolaroidCamera from './components/polaroidCamera/PolaroidCamera';
 // import Loader31 from './components/loader31/Loader31';
 // import TooltipAnimation from './components/TooltipAnimation/TooltipAnimation';
@@ -20,7 +20,7 @@ import React from 'react';
 // import StatBars3d from './components/StatBars3d/StatBar3d';
 // import SpiralLoading from './components/spiralLoading/SpiralLoading';
 // import LoadingPage from './components/loadingPage/LoadingPage';
-import MagazineStyleLayout from './components/magazineStyleLayout/MagazineStyleLayout'
+// import MagazineStyleLayout from './components/magazineStyleLayout/MagazineStyleLayout'
 // import LoadingPage2 from './components/loadingPage2/LoadingPage2';
 // import SolarSystemExplorer from './components/solarSystemExplorer/SolarSystemExplorer';
 // import OrderProcessSteps from './components/orderProcessSteps/OrderProcessSteps';
@@ -44,7 +44,7 @@ function App() {
   return (
     <div className="App">
       {/*<LoadingPage/>*/}
-     <MagazineStyleLayout />
+     {/*<MagazineStyleLayout />*/}
       {/*<LoadingPage2 />*/}
       {/*<SolarSystemExplorer />*/}
       {/*<OrderProcessSteps />*/}
@@ -69,7 +69,7 @@ function App() {
       {/*<TooltipAnimation />*/}
       {/*<FolderPaperLogin />*/}
        {/*<BurgerOrPizza />*/}
-     {/*<PolaroidStyles />*/}
+     <PolaroidStyles />
       {/*<FreeRadicals />*/}
       {/*<AnimatedRocket />*/}
       {/*<AnimatedLantern />*/}
