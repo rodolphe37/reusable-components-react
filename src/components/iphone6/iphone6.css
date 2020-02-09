@@ -346,7 +346,7 @@ html,body {
   font-size: 28px;
   color: #2AB1DB;
   background: linear-gradient(left,#2EC4F3 30%,#fff,#2EC4F3 70%);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 350px;
   animation: slide 5s linear infinite;

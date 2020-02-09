@@ -27,8 +27,8 @@ import React from 'react';
 // import Magazine3DFlip from './components/magazine3DFlip/Magazine3DFlip';
 // import FizzyButton from './components/fizzyButton/FizzyButton';
 // import ExplodingModal from './components/explodingModal/ExplodingModal';
-import ClockWorking from './components/clockWorking/ClockWorking';
-// import Iphone6 from './components/iphone6/Iphone6';
+// import ClockWorking from './components/clockWorking/ClockWorking';
+import Iphone6 from './components/iphone6/Iphone6';
 // import BendingEffect from './components/bendingEffect/BendingEffect';
 // import NewsCards from './components/newsCards/NewsCards';
 // import DirectionallyAwareHover from './components/directionallyAwareHover/DirectionallyAwareHover';
@@ -51,8 +51,8 @@ function App() {
       {/*<Magazine3DFlip />*/}
        {/*<FizzyButton />*/}
      {/*<ExplodingModal />*/}
-      <ClockWorking />
-      {/*<Iphone6 />*/}
+      {/*<ClockWorking />*/}
+      <Iphone6 />
       {/*<BendingEffect />*/}
        {/*<NewsCards />*/}
      {/*<DirectionallyAwareHover />*/}
