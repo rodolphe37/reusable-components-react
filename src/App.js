@@ -22,7 +22,7 @@ import React from 'react';
 // import LoadingPage from './components/loadingPage/LoadingPage';
 // import MagazineStyleLayout from './components/magazineStyleLayout/MagazineStyleLayout'
 // import LoadingPage2 from './components/loadingPage2/LoadingPage2';
-// import SolarSystemExplorer from './components/solarSystemExplorer/SolarSystemExplorer';
+import SolarSystemExplorer from './components/solarSystemExplorer/SolarSystemExplorer';
 // import OrderProcessSteps from './components/orderProcessSteps/OrderProcessSteps';
 // import Magazine3DFlip from './components/magazine3DFlip/Magazine3DFlip';
 // import FizzyButton from './components/fizzyButton/FizzyButton';
@@ -46,7 +46,7 @@ function App() {
       {/*<LoadingPage/>*/}
      {/*<MagazineStyleLayout />*/}
       {/*<LoadingPage2 />*/}
-      {/*<SolarSystemExplorer />*/}
+      <SolarSystemExplorer />
       {/*<OrderProcessSteps />*/}
       {/*<Magazine3DFlip />*/}
        {/*<FizzyButton />*/}
