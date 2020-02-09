@@ -35,7 +35,7 @@ html,body {
   }
   #flip #front, 
   #flip #front div {
-    background-image: url(http://blogs.slj.com/afuse8production/files/2012/06/Hobbit1.jpg);
+    background-image: url(./img/Hobbit1.jpg);
     box-shadow: inset rgba(255,255,255,0.3) 0px -1px 0 0,#35582C 0px 1px 0px 0px;
   }
   #flip #front > div > div > div > div > div > div > div > div > div > div { 
@@ -44,7 +44,7 @@ html,body {
   #flip #back { transform: rotateY(.4deg); transform-origin: -100% 0; } /* avoid pages overlap */
   #flip #back,
   #flip #back div {
-    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/164210/map1_.jpg); 
+    background-image: url(./img/map1_.jpg); 
   }
   
   #flip > div {  left: 0;  background-position-x: 0; }
@@ -75,7 +75,7 @@ html,body {
     top: 30%;
     transform: translate3d(0px,0px,-10px) rotateX(60deg) rotateZ(29deg);
     transform-style: preserve-3d;
-    -webkit-transform-origin: 0 0 0;
+    transform-origin: 0 0 0;
   }
   @keyframes book {
     25% {
@@ -90,7 +90,7 @@ html,body {
   }
   #book #top {
     animation: book 6s ease-in-out infinite;
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/164210/map2.jpg);
+    background: url(./img/map2.jpg);
     background-size: 100% 100%;
     background-position: 100%;
     box-shadow: inset rgba(0,0,0,0.2) 510px 0 50px -140px;

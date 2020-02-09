@@ -28,8 +28,8 @@ import React from 'react';
 // import FizzyButton from './components/fizzyButton/FizzyButton';
 // import ExplodingModal from './components/explodingModal/ExplodingModal';
 // import ClockWorking from './components/clockWorking/ClockWorking';
-import Iphone6 from './components/iphone6/Iphone6';
-// import BendingEffect from './components/bendingEffect/BendingEffect';
+// import Iphone6 from './components/iphone6/Iphone6';
+import BendingEffect from './components/bendingEffect/BendingEffect';
 // import NewsCards from './components/newsCards/NewsCards';
 // import DirectionallyAwareHover from './components/directionallyAwareHover/DirectionallyAwareHover';
 // import MobileMenu from './components/mobileMenu/MobileMenu';
@@ -52,8 +52,8 @@ function App() {
        {/*<FizzyButton />*/}
      {/*<ExplodingModal />*/}
       {/*<ClockWorking />*/}
-      <Iphone6 />
-      {/*<BendingEffect />*/}
+      {/*<Iphone6 />*/}
+      <BendingEffect />
        {/*<NewsCards />*/}
      {/*<DirectionallyAwareHover />*/}
       {/*<MobileMenu />*/}
