@@ -29,8 +29,8 @@ import React from 'react';
 // import ExplodingModal from './components/explodingModal/ExplodingModal';
 // import ClockWorking from './components/clockWorking/ClockWorking';
 // import Iphone6 from './components/iphone6/Iphone6';
-import BendingEffect from './components/bendingEffect/BendingEffect';
-// import NewsCards from './components/newsCards/NewsCards';
+// import BendingEffect from './components/bendingEffect/BendingEffect';
+import NewsCards from './components/newsCards/NewsCards';
 // import DirectionallyAwareHover from './components/directionallyAwareHover/DirectionallyAwareHover';
 // import MobileMenu from './components/mobileMenu/MobileMenu';
 // import MacBookAir3D from './components/macBookAir3d/MacBookAir3D';
@@ -53,8 +53,8 @@ function App() {
      {/*<ExplodingModal />*/}
       {/*<ClockWorking />*/}
       {/*<Iphone6 />*/}
-      <BendingEffect />
-       {/*<NewsCards />*/}
+      {/*<BendingEffect />*/}
+       <NewsCards />
      {/*<DirectionallyAwareHover />*/}
       {/*<MobileMenu />*/}
      {/* <MacBookAir3D />*/}
