@@ -41,7 +41,7 @@ const MagazineStyleLayout = () => {
         </div>
         <div className="content">
             <div className="content_picture">
-            <img src="https://news.broncolor.swiss/wp-content/uploads/2017/03/Bild01.jpg" />
+            <img src={require("./img/Bild01.jpg")} alt="Beatiful Girl" />
             </div>
             <div className="content_offset">
             <h2>Subtitle</h2>
@@ -123,7 +123,7 @@ const MagazineStyleLayout = () => {
             </h5>
             </div>
             <div className="content_picture">
-            <img src="https://news.broncolor.swiss/wp-content/uploads/2017/03/Bild01.jpg" />
+            <img src={require("./img/Bild01.jpg")} alt="Beatiful Girl"/>
             </div>
             <h1>
             <span>L</span>
@@ -197,7 +197,7 @@ const MagazineStyleLayout = () => {
         </div>
         <div className="bg" />
         <div className="content_centerimage">
-            <img src="https://profoto.azureedge.net/cdn/049e042/contentassets/f00fdbc1a7764964bd7f6c48f288cb05/profoto-collapsible-reflectors-rossella-vanon-fashion-photography-img_2013-600x900.jpg?width=1280&quality=75&format=jpg" />
+            <img src={require("./img/profoto-collapsible-reflectors-rossella-vanon-fashion-photography-img_2013-600x900.jpg")} alt="Beautiful girl" />
         </div>
         <div className="content">
             <div className="content_center right">
