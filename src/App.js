@@ -31,8 +31,8 @@ import React from 'react';
 // import Iphone6 from './components/iphone6/Iphone6';
 // import BendingEffect from './components/bendingEffect/BendingEffect';
 // import NewsCards from './components/newsCards/NewsCards';
-import DirectionallyAwareHover from './components/directionallyAwareHover/DirectionallyAwareHover';
-// import MobileMenu from './components/mobileMenu/MobileMenu';
+// import DirectionallyAwareHover from './components/directionallyAwareHover/DirectionallyAwareHover';
+import MobileMenu from './components/mobileMenu/MobileMenu';
 // import MacBookAir3D from './components/macBookAir3d/MacBookAir3D';
 // import ParticleSystem from './components/particleSystem/ParticleSystem';
 // import CubePack from './components/cubePack/CubePack';
@@ -55,8 +55,8 @@ function App() {
       {/*<Iphone6 />*/}
       {/*<BendingEffect />*/}
        {/*<NewsCards />*/}
-     <DirectionallyAwareHover />
-      {/*<MobileMenu />*/}
+     {/*<DirectionallyAwareHover />*/}
+      <MobileMenu />
      {/* <MacBookAir3D />*/}
       {/*<ParticleSystem />*/}
       {/*<CubePack />*/}
