@@ -33,8 +33,8 @@ import React from 'react';
 // import NewsCards from './components/newsCards/NewsCards';
 // import DirectionallyAwareHover from './components/directionallyAwareHover/DirectionallyAwareHover';
 // import MobileMenu from './components/mobileMenu/MobileMenu';
-import MacBookAir3D from './components/macBookAir3d/MacBookAir3D';
-// import ParticleSystem from './components/particleSystem/ParticleSystem';
+// import MacBookAir3D from './components/macBookAir3d/MacBookAir3D';
+import ParticleSystem from './components/particleSystem/ParticleSystem';
 // import CubePack from './components/cubePack/CubePack';
 // import TinyCity from './components/tinyCity/TinyCity';
 // import CheckBoxStyles from './components/checkboxStyles/CheckBoxStyles';
@@ -57,8 +57,8 @@ function App() {
        {/*<NewsCards />*/}
      {/*<DirectionallyAwareHover />*/}
       {/* <MobileMenu />*/}
-     <MacBookAir3D />
-      {/*<ParticleSystem />*/}
+     {/*<MacBookAir3D />*/}
+      <ParticleSystem />
       {/*<CubePack />*/}
       {/*<TinyCity />*/}
       {/*<CheckBoxStyles />*/}
