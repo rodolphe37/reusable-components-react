@@ -34,8 +34,8 @@ import React from 'react';
 // import DirectionallyAwareHover from './components/directionallyAwareHover/DirectionallyAwareHover';
 // import MobileMenu from './components/mobileMenu/MobileMenu';
 // import MacBookAir3D from './components/macBookAir3d/MacBookAir3D';
-import ParticleSystem from './components/particleSystem/ParticleSystem';
-// import CubePack from './components/cubePack/CubePack';
+// import ParticleSystem from './components/particleSystem/ParticleSystem';
+import CubePack from './components/cubePack/CubePack';
 // import TinyCity from './components/tinyCity/TinyCity';
 // import CheckBoxStyles from './components/checkboxStyles/CheckBoxStyles';
 
@@ -58,8 +58,8 @@ function App() {
      {/*<DirectionallyAwareHover />*/}
       {/* <MobileMenu />*/}
      {/*<MacBookAir3D />*/}
-      <ParticleSystem />
-      {/*<CubePack />*/}
+      {/*<ParticleSystem />*/}
+      <CubePack />
       {/*<TinyCity />*/}
       {/*<CheckBoxStyles />*/}
       {/*<StarWarsScene />*/}
