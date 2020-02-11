@@ -1,5 +1,5 @@
 body {
-    background: #fff;
+    background: rgb(230, 182, 182);
   }
   
   .macbook {
@@ -83,7 +83,7 @@ body {
     width: 130px;
     height: 74px;
     margin: 10px;
-    background: url("http://www.pcmag.com/media/images/507124-mac-os-sierra.jpg?thumb=y&width=150&height=96") no-repeat center center #000;
+    background: #000;
     background-size: 100% 100%;
     border-radius: 1px;
     position: relative;
